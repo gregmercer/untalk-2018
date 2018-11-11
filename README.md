@@ -52,14 +52,14 @@ Slack helps with this by providing 'Bots' - which open a short conversation and 
 ### The UX View - Design Steps
 
 0. Thinkout how to shape the conversation. 
-1. Break the UX down into a sequence of short filtering questions which result in direct answers/actions, The key is **funneling** down.
+1. Break the UX down into a sequence of short **filtering questions** which result in direct answers/actions. The key is **funneling** down.
 
 ---  
 
 ### The Developer's View - Coding Steps
 
-How all this works by just **JSON Messages** - being passed between Slack and your Bot Server
-Using standard HTTP request/response protocol
+All this works by just passing **JSON Messages** - between Slack and your Bot Server.
+Using standard HTTP request/response protocol.
 
 2. Write a Web Server
     a. Creating endpoints that handle GET/POST requests, that handle messages and actions
@@ -96,10 +96,10 @@ slackActions.action('room_selection', (payload) => {
 
 3. Configure your Bot 
 ```
-    a. Create a Bot in your Stanford Slack Workspace
-    b. Tell Slack the endpoints to call for your Bot
-    c. Set your Bot's Permission Scopes
-    d. Install your Bot in your Workspace.
+a. Create a Bot in your Stanford Slack Workspace
+b. Tell Slack the endpoints to call for your Bot
+c. Set your Bot's Permission Scopes
+d. Install your Bot in your Workspace.
 ```
 
 ---
