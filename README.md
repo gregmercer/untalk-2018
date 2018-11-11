@@ -61,8 +61,7 @@ Slack helps with this by providing 'Bots' - which open a short conversation and 
 All this works by just passing **JSON Messages** - between Slack and your Bot Server.
 Using standard HTTP request/response protocol.
 
-2. Write a Web Server
-    a. Creating endpoints that handle GET/POST requests, that handle messages and actions
+2. Write a Web Server - Creating endpoints that handle GET/POST requests, that handle messages and actions.
 
 #### Messsages
 
