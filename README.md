@@ -2,10 +2,12 @@
 # Slack... more than chat
 ---
 
+```
 Why students use Slack?
 What can Slack do beyond channeled chat?
 How do you create a Slack App?
-What are the benefits of having a Slack App?
+What are the benefits of a Slack App?
+```
 
 ---
 
@@ -13,10 +15,12 @@ What are the benefits of having a Slack App?
 
 ### The Student Need Pyramid 
 
-- When's it Due? => Do.
-- Learn, 
-- Network, 
-- Eat / Sleep
+```
+When's it Due? => Do.
+Learn, 
+Network, 
+Eat / Sleep
+```
 
 ---
 
@@ -60,7 +64,7 @@ Using standard HTTP request/response protocol
 2. Write a Web Server
     a. Creating endpoints that handle GET/POST requests, that handle messages and actions
 
-Messsages
+#### Messsages
 
 ```
 const { createEventAdapter } = require('@slack/events-api');
@@ -74,7 +78,7 @@ slackEvents.on('message', (event) => {
 });
 ```
 
-Actions
+#### Actions
 
 ```
 const { createMessageAdapter } = require('@slack/interactive-messages');
@@ -91,14 +95,16 @@ slackActions.action('room_selection', (payload) => {
 ### The DevOp's View - Configure Steps
 
 3. Configure your Bot 
+```
     a. Create a Bot in your Stanford Slack Workspace
     b. Tell Slack the endpoints to call for your Bot
     c. Set your Bot's Permission Scopes
     d. Install your Bot in your Workspace.
+```
 
 ---
 
-## What are the benefits vs other types of Apps?
+## What are the benefits of a Slack App?
 
 ### The Business View - Faster Cycles
 
