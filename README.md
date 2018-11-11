@@ -4,7 +4,7 @@
 
 ```
 Why students use Slack?
-What can Slack do beyond channeled chat?
+What can Slack do beyond chat?
 How do you create a Slack App?
 What are the benefits of a Slack App?
 ```
